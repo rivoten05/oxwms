@@ -1,0 +1,26 @@
+/* Gruvbox Light UI Theme */
+
+/* 1. URL Bar / Search Bar */
+#urlbar-background, #searchbar {
+  background-color: #fbf1c7 !important; /* Gruvbox Light0 */
+  border: 1px solid #d5c4a1 !important; /* Gruvbox Light2 */
+}
+
+#urlbar-input, #searchbar .searchbar-textbox {
+  color: #3c3836 !important; /* Gruvbox Dark0 */
+}
+
+/* 2. Menus (Right-click & Main Menu) */
+menupopup, panel {
+  --panel-background: #fbf1c7 !important;
+  --panel-color: #3c3836 !important;
+  --panel-border-color: #d5c4a1 !important;
+}
+
+/* Hover effect in menus */
+menuitem:hover, menu:hover, .menu-iconic-item:hover {
+  background-color: #ebdbb2 !important; /* Slightly darker Gruvbox cream */
+}
+
+/* 3. Settings Page & Internal Pages */
+/* Note: These require userContent.css (same folder) */

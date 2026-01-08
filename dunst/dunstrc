@@ -1,0 +1,37 @@
+[global]
+    ### Font Settings ###
+    # Using Maple Mono NF at size 10 for a crisp look
+    font = Maple Mono NF 10
+    
+    # Vertical padding between lines
+    line_height = 4
+    
+    ### Frame and Spacing ###
+    # A 3px frame helps the light background stand out against your wallpaper
+    frame_width = 3
+    frame_color = "#928374"      # Gruvbox Gray
+    separator_color = "#d5c4a1"  # Gruvbox Sep
+    
+    # Padding within the notification
+    padding = 12
+    horizontal_padding = 12
+    text_icon_padding = 10
+
+[base16_low]
+    msg_urgency = "low"
+    background = "#fbf1c7"
+    foreground = "#928374"
+    timeout = 3
+
+[base16_normal]
+    msg_urgency = "normal"
+    background = "#fbf1c7"
+    foreground = "#3c3836"
+    timeout = 3
+
+[base16_critical]
+    msg_urgency = "critical"
+    background = "#cc241d"
+    foreground = "#fbf1c7"
+    frame_color = "#9d0006"     # Darker red for the border on critical
+    timeout = 0

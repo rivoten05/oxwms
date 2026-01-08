@@ -1,0 +1,31 @@
+# --- Gruvbox Light Colors ---
+set default-bg                "#fbf1c7" # bg
+set default-fg                "#3c3836" # fg
+
+# Statusbar
+set statusbar-bg              "#d5c4a1" # sep
+set statusbar-fg              "#3c3836" # fg
+
+# Input bar
+set inputbar-bg               "#fbf1c7" # bg
+set inputbar-fg               "#8f3f71" # purple
+
+# Notification colors
+set notification-error-bg     "#cc241d" # red
+set notification-error-fg     "#fbf1c7" # bg
+set notification-warning-bg    "#cc241d" # red
+set notification-warning-fg    "#fbf1c7" # bg
+
+# Highlight colors (Search/Selection)
+set highlight-color           "#98971a" # green
+set highlight-active-color    "#458588" # blue
+
+# --- Recolor Mode (Dark Mode toggle with 'ctrl+r') ---
+set recolor                   "true"
+set recolor-lightcolor        "#fbf1c7" # bg
+set recolor-darkcolor         "#3c3836" # fg
+
+# Adjusting the adjustment for better contrast
+set render-loading            "true"
+set render-loading-fg         "#3c3836"
+set render-loading-bg         "#fbf1c7"

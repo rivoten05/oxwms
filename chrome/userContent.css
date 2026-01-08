@@ -1,0 +1,6 @@
+@-moz-document url-prefix("about:preferences"), url-prefix("about:addons"), url-prefix("about:config") {
+  :root, body {
+    background-color: #fbf1c7 !important;
+    color: #3c3836 !important;
+  }
+}

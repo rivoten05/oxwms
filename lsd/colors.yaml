@@ -1,0 +1,15 @@
+user: "#b16286"        # Purple
+group: "#928374"       # Gray
+permission:
+  read: "#98971a"      # Green
+  write: "#d79921"     # Yellow
+  exec: "#cc241d"      # Red
+size:
+  none: "#928374"
+  small: "#427b58"     # Aqua
+  medium: "#af3a03"    # Orange
+  large: "#cc241d"     # Red
+date:
+  hour: "#076678"      # Blue
+  day: "#427b58"       # Aqua
+  older: "#928374"     # Gray

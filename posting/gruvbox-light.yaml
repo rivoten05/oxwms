@@ -1,0 +1,9 @@
+name: gruvbox-light
+primary: "#458588"
+secondary: "#076678"
+accent: "#cc241d"
+background: "#fbf1c7"
+surface: "#ebdbb2"
+error: "#cc241d"
+success: "#98971a"
+warning: "#d79921"

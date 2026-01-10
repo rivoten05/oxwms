@@ -3,6 +3,8 @@ local icon = {
 	Warn = " ",
 	Hint = " ",
 	Info = " ",
+	DEBUG = "",
+	TRACE = "✎",
 }
 
 return icon

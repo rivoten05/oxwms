@@ -21,6 +21,14 @@ return {
 			transparent = false,
 			italic_comments = true,
 			borderless_pickers = false,
+			terminal_colors = true,
+			cache = false,
+			extensions = {
+				telescope = true,
+				notify = true,
+				mini = true,
+				...,
+			},
 			highlights = {
 				Comment = { fg = "#9c9c9c", bg = "NONE", italic = true },
 			},

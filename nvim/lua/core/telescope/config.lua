@@ -1,5 +1,3 @@
--- File: lua/core/telescope/config.lua
-
 local M = {
 	sort_mru = true,
 	sort_lastused = true,

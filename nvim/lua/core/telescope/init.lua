@@ -1,5 +1,3 @@
--- File: lua/core/telescope/init.lua
-
 local config = require("core.telescope.config")
 local extensions = require("core.telescope.extensions")
 local mappings = require("core.telescope.mappings")

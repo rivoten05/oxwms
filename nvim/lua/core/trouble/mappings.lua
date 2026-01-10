@@ -1,5 +1,3 @@
--- File: lua/core/trouble/mappings.lua
-
 local M = {
 	-- Basic keybindings
 	{ "<leader>xw", "<cmd>Trouble diagnostics toggle<CR>", desc = "Open trouble workspace diagnostics" },

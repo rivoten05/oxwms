@@ -1,5 +1,3 @@
--- File: lua/core/noice/presets.lua
-
 local M = {
 	bottom_search = false, -- use a classic bottom cmdline for search
 	command_palette = true, -- position the cmdline and popupmenu together

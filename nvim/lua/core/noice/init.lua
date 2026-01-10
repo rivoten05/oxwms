@@ -1,5 +1,3 @@
--- File: lua/core/noice/init.lua
-
 local M = {}
 
 function M.setup()

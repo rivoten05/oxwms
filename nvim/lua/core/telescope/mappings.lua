@@ -1,5 +1,3 @@
--- File: lua/core/telescope/mappings.lua
-
 local actions = require("telescope.actions")
 
 local M = {

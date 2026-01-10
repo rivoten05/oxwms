@@ -1,5 +1,3 @@
--- File: lua/core/neo-tree/init.lua
-
 local M = {}
 
 function M.setup()

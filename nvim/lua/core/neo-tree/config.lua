@@ -1,5 +1,3 @@
--- File: lua/core/neo-tree/config.lua
-
 local M = {}
 
 -- Define a central location for all icons

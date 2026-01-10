@@ -1,5 +1,3 @@
--- File: lua/core/telescope/extensions.lua
-
 local M = {}
 
 M.setup = function(telescope)

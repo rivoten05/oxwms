@@ -1,3 +1,4 @@
+local icon = require("core.icons")
 return {
 	"rcarriga/nvim-notify",
 	event = "VeryLazy",
@@ -14,11 +15,11 @@ return {
 		stages = "static",
 		timeout = 3000,
 		icons = {
-			ERROR = "",
-			WARN = "",
-			INFO = "",
-			DEBUG = "",
-			TRACE = "✎",
+			ERROR = icon.Error,
+			WARN = icon.Warn,
+			INFO = icon.Info,
+			DEBUG = icon.DEBUG,
+			TRACE = icon.TRACE,
 		},
 		border = "rounded",
 	},

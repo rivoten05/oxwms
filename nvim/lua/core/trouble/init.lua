@@ -1,5 +1,3 @@
--- File: lua/core/trouble/init.lua
-
 local M = {}
 
 function M.setup()

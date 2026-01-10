@@ -1,5 +1,4 @@
--- File: lua/core/trouble/config.lua
-
+local icon = require("core.icons")
 local M = {
 	focus = true,
 	auto_close = true,
@@ -9,10 +8,10 @@ local M = {
 		border = "rounded",
 	},
 	signs = {
-		error = "",
-		warning = "",
-		hint = "",
-		information = "",
+		error = icon.Error,
+		warning = icon.Warn,
+		hint = icon.Hint,
+		information = icon.Info,
 		other = "",
 	},
 }

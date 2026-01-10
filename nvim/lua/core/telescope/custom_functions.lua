@@ -1,5 +1,3 @@
--- File: lua/core/telescope/custom_functions.lua
-
 local builtin = require("telescope.builtin")
 local M = {}
 

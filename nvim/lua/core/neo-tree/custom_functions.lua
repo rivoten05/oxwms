@@ -1,5 +1,3 @@
--- File: lua/core/neo-tree/custom_functions.lua
-
 local M = {}
 
 M.event_handlers = {

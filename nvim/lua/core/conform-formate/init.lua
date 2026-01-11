@@ -8,6 +8,8 @@ M.setup = function()
 			go = { "gofumpt", "goimports" },
 			rust = { "rustfmt" },
 			dart = { "dart_format" },
+			cpp = { "clang_format" },
+			c = { "clang_format" },
 		},
 		format_on_save = {
 			timeout_ms = 500,

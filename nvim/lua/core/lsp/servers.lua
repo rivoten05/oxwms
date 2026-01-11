@@ -4,6 +4,7 @@ local M = {
 	"pyrefly",
 	"rust_analyzer",
 	"gopls",
+	"clangd",
 }
 
 return M

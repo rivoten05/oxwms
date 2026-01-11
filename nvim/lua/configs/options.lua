@@ -35,6 +35,9 @@ if g.neovide then
 end
 
 ----------------------------------- General Options ------------------------------------
+--wrap
+opt.wrap = false
+opt.textwidth = 0
 
 -- Swap file and undo
 opt.swapfile = false
@@ -54,6 +57,7 @@ opt.clipboard = "unnamedplus"
 -- Cursor and line numbers
 opt.cursorline = true
 opt.cursorlineopt = "number"
+opt.linespace = 2
 opt.number = true -- Absolute line numbers
 opt.relativenumber = true -- Relative line numbers for easier navigation
 opt.numberwidth = 2

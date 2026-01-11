@@ -11,6 +11,11 @@ M.setup = function()
 			cpp = { "clang_format" },
 			c = { "clang_format" },
 		},
+		formatters = {
+			clang_format = {
+				prepend_args = { "--style={ColumnLimit: 120}" },
+			},
+		},
 		format_on_save = {
 			timeout_ms = 500,
 			lsp_fallback = true,

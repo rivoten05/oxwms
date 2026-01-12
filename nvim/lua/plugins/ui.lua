@@ -25,8 +25,17 @@ return {
 			cache = false,
 			extensions = {
 				telescope = true,
+				alpha = true,
+				blinkcmp = true,
 				notify = true,
 				mini = true,
+				indentblankline = true,
+				lazy = true,
+				noice = true,
+				treesitter = true,
+				treesittercontext = true,
+				trouble = true,
+				whichkey = true,
 				...,
 			},
 			highlights = {

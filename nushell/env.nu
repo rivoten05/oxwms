@@ -6,6 +6,10 @@ path add ($env.HOME | path join ".sdk" "dart" "bin")
 
 path add ($env.HOME | path join ".sdk" "java" "bin")
 
+path add ($env.HOME | path join ".sdk" "maven" "bin")
+
+path add ($env.HOME | path join ".sdk" "gradle" "bin")
+
 path add ($env.HOME | path join ".cli" "bin")
 
 path add ($env.HOME | path join ".cli" "bin" "fresh")

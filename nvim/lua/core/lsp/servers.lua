@@ -6,6 +6,7 @@ local M = {
 	"gopls",
 	"clangd",
 	"dartls",
+	"jdtls",
 }
 
 return M

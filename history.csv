@@ -1,0 +1,3685 @@
+command,index
+ls,0
+yay -S zoxide ripgrep fd lsd fzf lua51 loarocks,1
+e,2
+exit,3
+ls,4
+wd,5
+pwd,6
+ls,7
+lsd,8
+pwd,9
+ls,10
+pwd,11
+lsd,12
+btop,13
+sys mem,14
+yay -S dysk,15
+dysk,16
+yay -S firefox,17
+ls,18
+sys mem,19
+pwd,20
+firefox,21
+cd ~/.config,22
+ls,23
+pwd,24
+ls,25
+p,26
+git init,27
+git status,28
+git add .,29
+"git commit -m ""first commit""",30
+"git config --global user.email ""rivo@gmail.com""",31
+"git config --global user.name ""rivo""",32
+"git commit -m ""first commit""",33
+git status,34
+ls,35
+touch .gitignore,36
+nvim .gitignore,37
+git status,38
+nvim .gitignore,39
+ls,40
+pwd,41
+ls,42
+pwd,43
+ls,44
+btm,45
+y,46
+z ~/.config/nvim/,47
+zi,48
+y,49
+z,50
+ls,51
+y,52
+z,53
+ls,54
+pwd,55
+dysk,56
+df -h,57
+ls,58
+lsd,59
+l,60
+yay -S lsd,61
+lsd,62
+pwd,63
+l,64
+ll,65
+pwd,66
+fastfetch,67
+pwd,68
+ls,69
+pwd,70
+z ~/.config/oxwm/,71
+ls,72
+v,73
+yay -S noto-fonts-emoji,74
+v,75
+ls,76
+pwd,77
+ls,78
+pwd,79
+dysk,80
+ls,81
+pwd,82
+fastfetch,83
+xinput list,84
+yay -S xorg-xinput,85
+xinput list,86
+"xinput set-prop ""ELAN Touchpad"" ""libinput Tapping Enable"" 1 ",87
+"xinput set-prop ""Elan Touchpad"" ""libinput Tapping Enable"" 1 ",88
+"xinput set-prop ""Elan Touchpad"" ""libinput Tapping Enabled"" 1 ",89
+z,90
+ls,91
+la,92
+nvim ~/.xinitrc,93
+ls,94
+la,95
+nvim ~/.xinitrc,96
+la,97
+rm .xinitrc,98
+ls,99
+pwd,100
+ls,101
+pwd,102
+ls,103
+pwd,104
+ls,105
+"xinput set-prop ""Elan Touchpad"" ""libinput Tapping Enabled"" 1 ",106
+ls,107
+pwd,108
+ls,109
+yay -S firefox,110
+ip a,111
+ip add,112
+ip ad,113
+ip,114
+ls,115
+pwd,116
+ls,117
+sudo mkdir -p /etc/X11/xorg.conf.d,118
+sudo nvim /etc/X11/xorg.conf.d/30-touchpad.conf,119
+sudo reboot,120
+ls,121
+pwd,122
+cd ~/.config/oxwm/,123
+ls,124
+v,125
+yay -S bat,126
+cat config.lua,127
+cd ~/.config/oxwm/,128
+ls,129
+yay -S wget,130
+yay -S xclip,131
+v,132
+cd ~/.config/oxwm/,133
+ls,134
+nvim config.lua,135
+z ~/.config/oxwm/,136
+v,137
+ls,138
+pwd,139
+"xmodmap -e ""keysym XF86Search = Super_L""",140
+xmodmap,141
+yls,142
+ls,143
+z Downloads/,144
+z Do,145
+ls,146
+cat txt.txt,147
+z ~/.config/oxwm/,148
+nvim txt.txt,149
+ls,150
+v,151
+ls,152
+pwd,153
+ls,154
+cat config.lua,155
+ls,156
+cp config.lua ~/Downloads/,157
+v,158
+ls,159
+pwd,160
+ls,161
+y,162
+z,163
+z Downloads/,164
+ls,165
+nvim config.lua,166
+v,167
+z Downloads/,168
+z oxwm,169
+nvim config.lua,170
+v,171
+z oxwm,172
+yay -S xwallpaper,173
+ls,174
+mkdir walls,175
+v,176
+z kity,177
+z ~/.config/kitty/,178
+z kitty,179
+v,180
+v,181
+cat kitty.conf,182
+cat cyberdream.conf,183
+kitty @ ser-background-opacity 0,184
+kitty @ set-background-opacity 0,185
+y,186
+kitty @ ls,187
+kitty @ reload-config,188
+kitty @ reload,189
+kitty @ ,190
+ls,191
+pwd,192
+ls,193
+pwd,194
+ls,195
+dysk,196
+sys mem,197
+sys disks,198
+ls,199
+pwd,200
+ls,201
+cd ~/.config/oxwm/,202
+v,203
+ls,204
+cd,205
+cd Downloads/,206
+wget https://nodejs.org/dist/v24.12.0/node-v24.12.0-linux-x64.tar.xz,207
+ls,208
+7zz node-v24.12.0-linux-x64.tar.xz,209
+7zip node-v24.12.0-linux-x64.tar.xz,210
+7z x node-v24.12.0-linux-x64.tar.xz,211
+ls,212
+7z x node-v24.12.0-linux-x64.tar,213
+y,214
+ls,215
+rm node-v24.12.0-linux-x64 node-v24.12.0-linux-x64.tar,216
+rm -r node-v24.12.0-linux-x64 node-v24.12.0-linux-x64.tar,217
+rm -r node-v24.12.0-linux-x64/,218
+ls,219
+tar -xzf node-v24.12.0-linux-x64.tar.xz,220
+ls,221
+tar -xJf node-v24.12.0-linux-x64.tar.xz,222
+ls,223
+y,224
+ls,225
+rm node-v24.12.0-linux-x64.tar.xz,226
+ls,227
+rm oxwm/,228
+rm -r oxwm txt.txt,229
+ls,230
+pwd,231
+z,232
+z kitty,233
+node -v,234
+npm -v,235
+y,236
+z,237
+ls,238
+"curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+",239
+cargo,240
+pwd,241
+ls,242
+dysk,243
+ls,244
+pwd,245
+ls,246
+cd ~/.config/oxwm/,247
+v,248
+ls,249
+pwd,250
+ls,251
+dysk,252
+ls,253
+sf -h,254
+df -h,255
+pwd,256
+ls,257
+du,258
+pwd,259
+ls,260
+ping google.com,261
+y,262
+ls,263
+cd scripts/,264
+ls,265
+rm network.sh,266
+wget https://github.com/zenfulten/nixos/blob/master/config/qtile/scripts/network.sh,267
+ls,268
+y,269
+rm network.sh,270
+z,271
+y,272
+ls,273
+./network.sh,274
+chmod +x *.sh,275
+ls,276
+./network.sh,277
+./bluetooth.sh,278
+./emoji.sh,279
+yay -S wl-copy,280
+"yay -S wl-clipboard-x11,",281
+yay -S wl-clipboard-x11,282
+ls,283
+xclip -selection clipboard,284
+z oxwm,285
+cd scripts/,286
+ls,287
+./emoji.sh,288
+yay -S cliphist,289
+nvim emoji.sh,290
+ls,291
+chmod +x cliphist.sh,292
+z oxwm,293
+v,294
+cd scripts/,295
+z scripts,296
+ls,297
+./cliphist.sh,298
+v,299
+./cliphist.sh,300
+cd,301
+ls,302
+cat cliphist.sh,303
+cat ../config.lua,304
+cat ../config/autostart.lua,305
+y,306
+z scripts,307
+./cliphist.sh,308
+ls,309
+z scripts,310
+./cliphist.sh,311
+ls,312
+cat cliphist.sh,313
+./cliphist.sh,314
+cat cliphist.sh,315
+./cliphist.sh,316
+cat cliphist.sh,317
+./cliphist.sh,318
+cliphist list,319
+rm -rf ~/.cache/cliphist/,320
+cliphist list,321
+z scripts,322
+./cliphist.sh,323
+cliphist list,324
+./cliphist.sh,325
+y,326
+yay -Rns cliphist,327
+ls,328
+y,329
+yay -S tmux,330
+ls,331
+pwd,332
+ls,333
+sys mem,334
+ls,335
+z scripts,336
+ls,337
+p,338
+y,339
+v,340
+y,341
+z scripts,342
+y,343
+z scripts,344
+v,345
+ls,346
+./emoji.sh,347
+./powermenu.sh,348
+z config,349
+ls,350
+nvim ke,351
+nvim keybinds.lua,352
+ls,353
+pwd,354
+z nv,355
+v,356
+ls,357
+pwd,358
+ls,359
+yay -S mvp,360
+yay -S mpv,361
+ls,362
+pwd,363
+sys mem,364
+ls,365
+pwd,366
+ls,367
+pwd,368
+ls,369
+pwd,370
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+,371
+wpctl,372
+brightnessctl set +5%,373
+yay -S brightnessctl,374
+brightnessctl set +5%,375
+z config,376
+v,377
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+,378
+wpctl set-volume @DEFAULT_AUDIO_SINK@,379
+wpctl get-volume @DEFAULT_AUDIO_SINK@,380
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+,381
+wpctl get-volume @DEFAULT_AUDIO_SINK@,382
+z config,383
+v,384
+wpctl get-volume @DEFAULT_AUDIO_SINK@,385
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+,386
+wpctl get-volume @DEFAULT_AUDIO_SINK@,387
+z config,388
+wpctl get-volume @DEFAULT_AUDIO_SINK@,389
+v,390
+ls,391
+pwd,392
+z,393
+z nv,394
+p,395
+v,396
+s,397
+ls,398
+z,399
+ls,400
+mkdir coding,401
+z coding/,402
+ls,403
+mkdir node-js,404
+cd node-js/,405
+git clone https://github.com/rivoten05/Algo-javascript,406
+cd Algo-javascript/,407
+ls,408
+y,409
+ls,410
+npm i,411
+npm i -d jest,412
+npm install --save-dev jest,413
+y,414
+npm test anagrams/test.js,415
+cat package.json,416
+v,417
+npm test anagrams/test.js,418
+ls,419
+npm test anagrams/test.js,420
+v,421
+ls,422
+sys mem,423
+y,424
+bash,425
+"sudo timeshift --create --comments ""completed setup oxwm"" --tags o",426
+sudo timeshift --list,427
+ls,428
+pwd,429
+ping -c 5 github.com,430
+unzip,431
+ls,432
+z,433
+cd Downloads/,434
+ls,435
+unzip dartsdk-linux-x64-release.zip,436
+y,437
+ls,438
+z nushell,439
+v,440
+dart --version,441
+dysk,442
+pwd,443
+ls,444
+z nv,445
+v,446
+z nv,447
+v,448
+ls,449
+pwd,450
+ll,451
+l,452
+ll,453
+v,454
+z,455
+nvim .tmux.conf,456
+yay -S tmux,457
+which nu,458
+ls /etc/shells,459
+ls /etc/shells/,460
+ls /etc/shells,461
+which nu,462
+tmux,463
+nvim .tmux.conf,464
+tmux,465
+tmux,466
+ls,467
+pwd,468
+sys mem,469
+sys disks,470
+pwd,471
+ls,472
+y,473
+ls,474
+ls -a,475
+ls,476
+du,477
+y,478
+z,479
+ls,480
+p,481
+l,482
+ll,483
+y,484
+ls,485
+rm dartsdk-linux-x64-release.zip,486
+ls,487
+z,488
+z nv,489
+v,490
+python --version,491
+yay -S uv,492
+uv tools install posting,493
+uv tool install posting,494
+posting,495
+cd nv,496
+z nv,497
+v,498
+dysk,499
+ls,500
+p,501
+z,502
+ls,503
+p,504
+l,505
+ll,506
+ls,507
+pwd,508
+ls,509
+python --version,510
+uv --version,511
+uv,512
+uv python,513
+uv python list,514
+python --version,515
+java -v,516
+ls,517
+pwd,518
+sudo nvim /etc/ly/config.ini,519
+ls,520
+pwd,521
+ls,522
+z nv,523
+v,524
+ls,525
+ping -c 5 github.com,526
+yay -Sy,527
+yay -Syu,528
+z nv,529
+v,530
+y,531
+la,532
+pwd,533
+ls,534
+pwd,535
+ls,536
+pwd,537
+y,538
+ls,539
+mkdir py-code,540
+cd py-code/,541
+mkdir api,542
+cd api/,543
+uv venv,544
+uv init,545
+ls,546
+pip list,547
+uv pip list,548
+overlay use .venv/bin/activate.nu ,549
+ls,550
+uv pip list,551
+"uv add ""fastapi[standard]""",552
+uv pip list,553
+uv run fastapi dev src/app/main.py --host 127.0.0.1 --port 8000,554
+ls,555
+uv run fastapi dev main.py --host 127.0.0.1 --port 8000,556
+v,557
+ls,558
+ping -c 5 github.com,559
+yay -Sy,560
+yay -S Maple-Mono-NF,561
+yay -S maplemono-df-unhinted,562
+lsblk,563
+ls,564
+mkdir .fonts,565
+y,566
+ls,567
+unxip MapleMono-NF.zip,568
+unzip MapleMono-NF.zip,569
+ls,570
+mv *.ttf ~/.fonts/,571
+ls,572
+fc-cache -f -v,573
+kitty +list-fonts,574
+z kitty,575
+v,576
+z kitty,577
+kitty +list-fonts,578
+ls,579
+pwd,580
+z nv,581
+v,582
+cd walls,583
+ls,584
+ll,585
+v,586
+"kitty +list-fonts --psnames | grep ""Maple Mono""",587
+z kitty,588
+ls,589
+pwd,590
+ls,591
+pwd,592
+ls,593
+z nv,594
+v,595
+ls,596
+pwd,597
+ll,598
+ls,599
+ll,600
+z nv,601
+v,602
+"kitty +list-fonts --psnames | grep ""Maple Mono""",603
+z nv,604
+v,605
+ls,606
+ll,607
+pwd,608
+cd nv,609
+v,610
+z nv,611
+v,612
+ls,613
+ll,614
+ls,615
+ll,616
+ls,617
+ll,618
+ls,619
+ll,620
+ls,621
+ll,622
+ls,623
+ll,624
+ls,625
+ll,626
+z nv,627
+v,628
+v,629
+y,630
+v,631
+ls,632
+y,633
+v,634
+"yay -Q | grep ""Jet""",635
+yay -Q ,636
+"yay -Q | grep ""ttf""",637
+yay -Rns ttf-jetbrains-mono-nerd,638
+z nv,639
+v,640
+fastfetch,641
+z ki,642
+z kitty.conf,643
+z kitty,644
+fastfetch,645
+"kitty +list-fonts --psnames | grep ""Maple Mono""",646
+v,647
+ls,648
+fastfetch,649
+ls,650
+z nv,651
+v,652
+z,653
+z ,654
+du,655
+ls,656
+cd .config/,657
+ls,658
+git status,659
+git init,660
+git config --global init.defaultBranch main,661
+git init,662
+git status,663
+git ass,664
+gi,665
+ga,666
+"gc -m ""initial commit""",667
+"gc ""initial commit""",668
+"git config --global user.email ""rivo@gmail.com""",669
+"git config --global user.name ""rivo""",670
+"gc ""initial commit""",671
+ls,672
+ping -c 5 github.com,673
+ls,674
+git branch -M main,675
+git push -u origin main,676
+git push,677
+git push -u origin main,678
+git push --set-upstream origin main,679
+git remote remove origin,680
+git push --set-upstream origin main,681
+z nushell,682
+ls,683
+v history.txt,684
+gss,685
+git status,686
+git diff,687
+git diff | cat,688
+gs,689
+z,690
+cd .config/,691
+gs,692
+v .gitignore,693
+gs,694
+ga,695
+gss,696
+gs,697
+"gc ""initial commit""",698
+gss,699
+git diff | cat,700
+ls,701
+pwd,702
+ls,703
+pwd,704
+ls,705
+pwd,706
+gss,707
+p,708
+y,709
+v,710
+zi,711
+v,712
+ls,713
+ll,714
+z kitty,715
+ls,716
+v,717
+cd..,718
+..,719
+ls,720
+v,721
+y,722
+fc-cache -f -v,723
+z oxwm,724
+v,725
+z oxwm,726
+v,727
+ls,728
+pwd,729
+ls,730
+z ~/.config/,731
+ls,732
+gs,733
+ga,734
+"gc ""initial commit""",735
+gp,736
+ls,737
+pwd,738
+ls,739
+pwd,740
+z kitty,741
+lsd,742
+v,743
+z nv,744
+v,745
+ls,746
+z,747
+ls,748
+cd coding/,749
+ls,750
+mkdir lua-lang,751
+cd lua-lang/,752
+git clone https://github.com/rioten353/lua_api.git,753
+la,754
+y,755
+v,756
+ls,757
+btm,758
+ls,759
+z api,760
+ls,761
+v,762
+ls,763
+v,764
+yay -Ss opencode,765
+yay -Sy,766
+ls,767
+pwd,768
+ls,769
+z kitty,770
+v,771
+z nv,772
+v,773
+z ,774
+z api,775
+ls,776
+v,777
+z kitty,778
+ls,779
+v,780
+ls,781
+pwd,782
+ls,783
+z api,784
+ll,785
+ls,786
+v,787
+ls,788
+pwd,789
+ll,790
+z kitty,791
+v,792
+ls,793
+ll,794
+pwd,795
+ls,796
+z nv,797
+v,798
+ls,799
+pwd,800
+z oxwm,801
+v,802
+z oxwm,803
+v,804
+ls,805
+pwd,806
+fastfetch,807
+ls,808
+pwd,809
+ll,810
+z kitty,811
+ls,812
+pwd,813
+ls,814
+pwd,815
+ls,816
+pwd,817
+ll,818
+pwd,819
+ls,820
+z nv,821
+v,822
+ls,823
+pwd,824
+ll,825
+ls,826
+z oxwm,827
+v,828
+ls,829
+pwd,830
+ls,831
+ll,832
+v,833
+z oxwm,834
+v,835
+ls,836
+pwd,837
+ls,838
+pwd,839
+ls,840
+z nv,841
+v,842
+z nv,843
+v,844
+z oxwm,845
+v,846
+ls,847
+pwd,848
+ls,849
+ll,850
+ls,851
+ls -a,852
+z oxwm,853
+v,854
+pwd,855
+ls,856
+pwd,857
+ls,858
+pwd,859
+z api,860
+v,861
+z nv,862
+v,863
+v,864
+ls,865
+pwd,866
+ls,867
+ll,868
+btm,869
+fastfetch,870
+y,871
+z rofi,872
+zi,873
+z oxwm,874
+v,875
+w,876
+ls,877
+v,878
+fastfetch,879
+spf,880
+y,881
+z ~/.config/,882
+v,883
+y,884
+v,885
+y,886
+ls,887
+ll,888
+pwd,889
+ll,890
+ls,891
+z rofi,892
+v,893
+ls,894
+pwd,895
+v,896
+ls,897
+ls | grep chrome,898
+y,899
+ls *.css,900
+mkdir chrome,901
+cd chrome/,902
+v userChrome.css,903
+..,904
+cp chrome ~/.config/,905
+cp -r chrome ~/.config/,906
+z,907
+ls,908
+ls -a,909
+cp .tmux.conf ~/.config/,910
+cd ~/.config/,911
+gss,912
+gs,913
+ga,914
+"gc ""add guruvbox theme""",915
+gp,916
+ls,917
+pwd,918
+pwd,919
+ll,920
+z api,921
+v,922
+y,923
+z nv,924
+v,925
+ls,926
+gr,927
+gs,928
+gr lua/plugins/nvim-autopairs.lua,929
+v,930
+gs,931
+pwd,932
+ls,933
+v,934
+gs,935
+git diff | cat,936
+gss,937
+v,938
+gss,939
+3v,940
+v,941
+gss,942
+v,943
+gss,944
+v,945
+ls,946
+y,947
+gss,948
+gs,949
+gr nvim-autopairs.lua,950
+v,951
+gr nvim-autopairs.lua,952
+ls,953
+v,954
+ls,955
+gr nvim-autopairs.lua,956
+v,957
+cargo --version,958
+ls,959
+gr nvim-autopairs.lua,960
+v,961
+z ~/.local/share/nvim/lazy/,962
+ls,963
+rm -r blink.pairs/,964
+git clone https://github.com/saghen/blink.pairs.git,965
+ls,966
+v,967
+rm -r ~/.local/share/nvim/lazy/blink.pairs,968
+v,969
+y,970
+gr nvim-autopairs.lua,971
+ls,972
+v,973
+gss,974
+ls,975
+rm -r ~/.local/share/nvim/lazy/blink.pairs,976
+z,977
+cd ~/.config/,978
+gss,979
+pwd,980
+dysk,981
+du,982
+z,983
+du,984
+dysk,985
+du,986
+y,987
+du,988
+y,989
+du,990
+z,991
+ls,992
+cargo --version,993
+which cargo,994
+y,995
+ls,996
+cargo new cli,997
+cd cli/,998
+v,999
+z nv,1000
+x nv,1001
+z nv,1002
+v,1003
+v,1004
+gs,1005
+ga,1006
+"gc ""add guruvbox theme""",1007
+gp,1008
+z nv,1009
+v,1010
+gss,1011
+ga,1012
+"gc ""add guruvbox theme""",1013
+gp,1014
+ls,1015
+pwd,1016
+btm,1017
+z nv,1018
+v,1019
+z api,1020
+ls,1021
+y,1022
+ls,1023
+lua main.lua,1024
+luarocks main.lua,1025
+ls,1026
+pwd,1027
+ls,1028
+p,1029
+z oxwm,1030
+v,1031
+ls,1032
+y,1033
+xwallpaper --zoom girls.jpg,1034
+xwallpaper --zoom gruvbox.png,1035
+ls,1036
+pwd,1037
+y,1038
+ls,1039
+pwd,1040
+ls,1041
+z oxwm,1042
+gss,1043
+gs,1044
+ga,1045
+"gc ""add guruvbox theme""",1046
+v,1047
+ls,1048
+z ~/.config/,1049
+posting,1050
+y,1051
+z pi,1052
+z api,1053
+ls,1054
+overlay use .venv/bin/activate.nu ,1055
+ls,1056
+../../py-code/api/,1057
+overlay use .venv/bin/activate.nu ,1058
+ls,1059
+uv run fastapi dev main.py --host 127.0.0.1 --port 8000,1060
+ls,1061
+deactivate,1062
+ls,1063
+posting,1064
+ls,1065
+pwd,1066
+ls,1067
+ll,1068
+pwd,1069
+pp,1070
+ls,1071
+z nushell,1072
+z ~/.config/,1073
+gs,1074
+gd,1075
+z ~/.config/,1076
+gd,1077
+ls,1078
+gd,1079
+gd | cat,1080
+gd,1081
+git diff | cat,1082
+gl,1083
+gl | cat,1084
+c,1085
+cls,1086
+hist,1087
+time,1088
+time --help,1089
+l,1090
+ll,1091
+la,1092
+lla,1093
+lt,1094
+tree,1095
+lt,1096
+ip,1097
+ping github.com,1098
+fzf,1099
+y,1100
+d,1101
+cd d,1102
+z,1103
+ls,1104
+cd d,1105
+nvims,1106
+v,1107
+y,1108
+gss,1109
+ga,1110
+"gc ""add fonts"" ",1111
+ls,1112
+gss,1113
+dysk,1114
+sys disks,1115
+ls,1116
+pwd,1117
+z,1118
+ls,1119
+pwd,1120
+ls,1121
+java -version,1122
+y,1123
+ls,1124
+pwd,1125
+ll,1126
+z nv,1127
+v,1128
+y,1129
+ls,1130
+cd scripts/,1131
+ls,1132
+./key.sh,1133
+z oxwm,1134
+./key.sh,1135
+cd scripts/,1136
+./key.sh,1137
+v,1138
+awk,1139
+ls,1140
+pwd,1141
+z tofi,1142
+z rofi,1143
+ls,1144
+./key.sh,1145
+v ,1146
+ls,1147
+gss,1148
+z ~/.config/,1149
+gs,1150
+ga,1151
+"gc ""improve rofi"" ",1152
+ls,1153
+gs,1154
+ls,1155
+gss,1156
+ga,1157
+"gc ""improve rofi"" ",1158
+ping github.com,1159
+v,1160
+ls,1161
+y,1162
+v,1163
+gs,1164
+z ~/.config/,1165
+gs,1166
+ga,1167
+"gc ""add dressing pluguns""",1168
+gp,1169
+gs,1170
+ga,1171
+"gc ""add dressing pluguns""",1172
+gp,1173
+ls,1174
+pwd,1175
+ll,1176
+pwd,1177
+fzf,1178
+ls,1179
+tmux,1180
+y,1181
+ping github.com,1182
+ls,1183
+pwd,1184
+ls,1185
+pwd,1186
+yay -Sy,1187
+yay -Syu,1188
+sudo timeshift --list,1189
+"sudo timeshift --create --comments ""updated packages"" --tags o",1190
+yay -Ss nwg-look,1191
+y,1192
+ls,1193
+rm `Gruvbox-B-MB-light.tar(1).xz`,1194
+ls,1195
+tar -xJf Gruvbox-B-MB-light.tar.xz,1196
+y,1197
+yay -S nwg-look,1198
+ls,1199
+pwd,1200
+fastfetch,1201
+ls,1202
+pwd,1203
+y,1204
+ls,1205
+tar -xJf Bibata-Modern-Ice.tar.xz,1206
+ls,1207
+tar -xvf gruvbox-plus-icon-pack.6.3.0.tar.gz,1208
+ls,1209
+y,1210
+ls,1211
+y,1212
+dysk,1213
+ls,1214
+pwd,1215
+ll,1216
+pwd,1217
+ll,1218
+ls,1219
+pwd,1220
+ll,1221
+pw,1222
+ll,1223
+y,1224
+gs,1225
+ga,1226
+"gc ""add icons and theme with nwg-look""",1227
+gp,1228
+ls,1229
+pwd,1230
+lsd,1231
+z,1232
+lsblk,1233
+z,1234
+ls,1235
+mkdir mem,1236
+ls,1237
+pwd,1238
+ls,1239
+lsblk,1240
+ls,1241
+sudo chown rio:rio ~/mem,1242
+ls -ld ~/mem,1243
+sudo mount /dev/sda ~/mem,1244
+yay -S exfat-utils,1245
+sudo mount /dev/sda ~/mem,1246
+y,1247
+sudo umount /dev/sda,1248
+lsblk,1249
+"sudo mount -o uid=$(id -u),gid=$(id -g) /dev/sda ~/mem",1250
+posting locate themes,1251
+z /home/rio/.local/share/posting/themes,1252
+ls,1253
+lsblk,1254
+z oxwm,1255
+v,1256
+posting locate themes,1257
+ls,1258
+z /home/rio/.local/share/posting/themes,1259
+touch light.yaml,1260
+v light.yaml,1261
+z ~/.config/posting/,1262
+ls,1263
+v,1264
+posting,1265
+z /home/rio/.local/share/posting/themes,1266
+posting,1267
+v light.yaml,1268
+z ~/.config/posting/,1269
+z /home/rio/.local/share/posting/themes,1270
+ls,1271
+z /home/rio/.local/share/posting/themes,1272
+ls,1273
+rm light.yaml,1274
+posting,1275
+y,1276
+v config.yaml,1277
+z /home/rio/.local/share/posting/themes,1278
+v gruvbox-light.yaml,1279
+z ~/.config/posting/,1280
+posting,1281
+v config.yaml,1282
+z /home/rio/.local/share/posting/themes,1283
+cp gruvbox-light.yaml ~/.config/posting/,1284
+y,1285
+lsd,1286
+ll,1287
+pwd,1288
+ls,1289
+cat config.yaml,1290
+cat gruvbox-light.yaml,1291
+z nushell,1292
+ls,1293
+y,1294
+v,1295
+gs,1296
+ga,1297
+"gc ""add icons and theme with nwg-look""",1298
+gp,1299
+z nv,1300
+ls,1301
+cat init.lua,1302
+mkdir -p ~/.config/lsd,1303
+mkdir ~/.config/lsd,1304
+z ~/.config/lsd/,1305
+ls,1306
+nano ~/.config/lsd/colors.yaml,1307
+v ~/.config/lsd/colors.yaml,1308
+l,1309
+ll,1310
+ls,1311
+pwd,1312
+ll,1313
+pwd,1314
+la,1315
+v,1316
+btm,1317
+z yazi,1318
+ls,1319
+y,1320
+ls,1321
+rm theme.toml,1322
+mkdir ~/.config/yazi/themes,1323
+ls,1324
+nvim ~/.config/yazi/theme.toml,1325
+y,1326
+ls,1327
+gs,1328
+z ~/.config/,1329
+gs,1330
+ga,1331
+"gc ""add yazi theme""",1332
+gp,1333
+y,1334
+fastfetch,1335
+touch ~/.config/bottom/bottom.toml,1336
+nvim ~/.config/bottom/bottom.toml,1337
+btm,1338
+touch ~/.config/fastfetch/config.jsonc,1339
+mkdir ~/.config/fastfetch/,1340
+nvim ~/.config/fastfetch/config.jsonc,1341
+fastfetch,1342
+ls,1343
+nvim ~/.config/fastfetch/config.jsonc,1344
+fastfetch,1345
+y,1346
+fastfetch,1347
+y,1348
+ls,1349
+cp ~/Downloads/arch.png ./,1350
+v,1351
+fa,1352
+fastfetch,1353
+fastfetch,1354
+ls,1355
+pwd,1356
+ll,1357
+y,1358
+fastfetch,1359
+v,1360
+ls,1361
+fastfetch,1362
+ls,1363
+pwd,1364
+ll,1365
+pp,1366
+ls,1367
+l,1368
+ll,1369
+ls,1370
+pwd,1371
+ll,1372
+z ~/.config/,1373
+ll,1374
+gs,1375
+ga,1376
+"gc ""add yazi theme""",1377
+gp,1378
+y,1379
+fastfetch,1380
+z ~/.config/,1381
+gs,1382
+ga,1383
+"gc ""add yazi theme""",1384
+gp,1385
+y,1386
+ls,1387
+pwd,1388
+ls,1389
+pwd,1390
+ll,1391
+lla,1392
+v,1393
+ls,1394
+btm,1395
+ls,1396
+pwd,1397
+fastfetch,1398
+pwd,1399
+wd,1400
+z rofi,1401
+v,1402
+gs,1403
+z,1404
+z ~/.config/,1405
+ga,1406
+"gc ""add yazi theme""",1407
+gp,1408
+y,1409
+dy,1410
+dysk,1411
+ls,1412
+pwd,1413
+ls,1414
+y,1415
+ls,1416
+pwd,1417
+ll,1418
+pwd,1419
+ll,1420
+pwd,1421
+lla,1422
+d,1423
+c,1424
+p,1425
+d,1426
+~/.Downloads,1427
+~/Downloads,1428
+ls,1429
+gcl https://github.com/AllJavi/tartarus-grub.git,1430
+ls,1431
+cd tartarus-grub/,1432
+ls,1433
+"sudo timeshift --create --comments ""before changing grub theme"" --tags o",1434
+yay -Syu,1435
+ls,1436
+lt,1437
+sudo cp tartarus -r /usr/share/grub/themes/,1438
+sudo vim /etc/default/grub,1439
+sudo nvim /etc/default/grub,1440
+sudo grub-mkconfig -o /boot/grub/grub.cfg,1441
+~/Downloads,1442
+ls,1443
+du,1444
+pwd,1445
+notify-send,1446
+yay -S ibnotify dunst,1447
+yay -S libnotify dunst,1448
+"notify-send ""hello""",1449
+z oxwm,1450
+v,1451
+"notify-send ""Hello World"" ""This is a test notification.""",1452
+mkdir ~/.config/dunst,1453
+cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc,1454
+"notify-send ""Hello World"" ""This is a test notification.""",1455
+z ~/.config/dunst/dunstrc,1456
+z ~/.config/dunst/,1457
+v dunstrc,1458
+"notify-send ""Hello World"" ""This is a test notification.""",1459
+z ~/.config/dunst/,1460
+v,1461
+z oxwm,1462
+v,1463
+z ~/.config/dunst/,1464
+"notify-send ""Hello World"" ""This is a test notification.""",1465
+pkill dunst; dunst,1466
+v dunstrc,1467
+"notify-send ""Hello World"" ""This is a test notification.""",1468
+pkill dunst; dunst,1469
+"notify-send ""Hello World"" ""This is a test notification.""",1470
+z kitty,1471
+gs,1472
+ga,1473
+"gc ""add dunst""",1474
+ga,1475
+"gc ""add dunst""",1476
+z ~/.config/,1477
+gs,1478
+ga,1479
+"gc ""add dunst""",1480
+gp,1481
+v,1482
+pkill dunst; dunst,1483
+ls,1484
+"notify-send ""Hello World"" ""This is a test notification.""",1485
+v,1486
+z ~/.config/dunst/,1487
+gs,1488
+z kitty,1489
+git diff | cat,1490
+gr kitty.conf,1491
+"notify-send ""Hello World"" ""This is a test notification.""",1492
+pkill dunst; dunst,1493
+z ~/.config/,1494
+gs,1495
+ga,1496
+"gc ""add dunst""",1497
+gp,1498
+v dunstrc,1499
+"notify-send ""Image Test"" ""This is how your theme looks with an icon."" -i /usr/share/icons/hicolor/48x48/apps/firefox.png",1500
+ls,1501
+sudo v /etc/ly/config.ini,1502
+sudo nvim /etc/ly/config.ini,1503
+cat /etc/ly/config.ini,1504
+sudo nvim /etc/ly/config.ini,1505
+udo systemctl restart ly,1506
+sudo systemctl restart ly,1507
+sudo nvim /etc/ly/config.ini,1508
+"notify-send ""Image Test"" ""This is how your theme looks with an icon."" -i /usr/share/icons/hicolor/48x48/apps/firefox.png",1509
+s,1510
+ls,1511
+sudo nvim /etc/ly/config.ini,1512
+z ~/.config/,1513
+gs,1514
+ls,1515
+z nv,1516
+v,1517
+ping github.com,1518
+jq,1519
+ls,1520
+ping github.com,1521
+z nv,1522
+v,1523
+ls,1524
+pwd,1525
+z,1526
+z nv,1527
+ping github.com,1528
+z nv,1529
+v,1530
+ls,1531
+ping github.com,1532
+ls,1533
+pwd,1534
+z nv,1535
+v,1536
+z ~/.config/,1537
+gs,1538
+ga,1539
+"gc ""add dunst""",1540
+gp,1541
+ls,1542
+pwd,1543
+ll,1544
+pwd,1545
+ll,1546
+dysk,1547
+ls,1548
+pwd,1549
+ll,1550
+pwd,1551
+z nv,1552
+v,1553
+z nv,1554
+gss,1555
+z nv,1556
+v,1557
+gss,1558
+v,1559
+gss,1560
+z nv,1561
+v,1562
+z nv,1563
+v,1564
+ping github.com,1565
+z nv,1566
+v,1567
+z nv,1568
+gss,1569
+ga,1570
+"gc ""add dunst""",1571
+gp,1572
+gss,1573
+v,1574
+gss,1575
+v,1576
+gss,1577
+ga,1578
+"gc ""change codeium""",1579
+gp,1580
+v,1581
+gss,1582
+ga,1583
+"gc ""change codeium""",1584
+gp,1585
+gss,1586
+ga,1587
+"gc ""change codeium""",1588
+gp,1589
+v,1590
+gs,1591
+ga,1592
+"gc ""change codeium""",1593
+gp,1594
+gss,1595
+ga,1596
+"gc ""change codeium""",1597
+gp,1598
+v,1599
+v,1600
+gss,1601
+ga,1602
+"gc ""change codeium""",1603
+gp,1604
+z nv,1605
+z api,1606
+v,1607
+make,1608
+z nv,1609
+v,1610
+gss,1611
+ga,1612
+"gc ""change codeium""",1613
+gp,1614
+v,1615
+z,1616
+v,1617
+z nv,1618
+gss,1619
+ga,1620
+"gc ""change codeium""",1621
+gp,1622
+v,1623
+yay -S tree-sitter-cli,1624
+v,1625
+gss,1626
+ga,1627
+"gc ""change codeium""",1628
+gp,1629
+v,1630
+z nv,1631
+v,1632
+z nv,1633
+v,1634
+gss,1635
+ga,1636
+"gc ""mini animate""",1637
+gp,1638
+z nv,1639
+gss,1640
+ga,1641
+"gc ""mini animate""",1642
+gp,1643
+gs,1644
+gss,1645
+ga,1646
+"gc ""mini animate""",1647
+gp,1648
+z api,1649
+v,1650
+gss,1651
+ga,1652
+"gc ""dressing""",1653
+gp,1654
+v,1655
+gss,1656
+ga,1657
+"gc ""remove rust lsp"" ",1658
+gp,1659
+v,1660
+gss,1661
+ga,1662
+"gc ""remove rust lsp"" ",1663
+gp,1664
+v,1665
+z api,1666
+v,1667
+gss,1668
+ga,1669
+"gc ""lualine""",1670
+gp,1671
+gss,1672
+ga,1673
+"gc ""lualine""",1674
+gp,1675
+v,1676
+gss,1677
+ga,1678
+"gc ""lualine""",1679
+gp,1680
+z,1681
+nvim .tmux.conf,1682
+ls,1683
+pwd,1684
+ll,1685
+ping github.com,1686
+yay -Sy,1687
+yay -Syu,1688
+z nv,1689
+v,1690
+ls,1691
+pwd,1692
+gss,1693
+z,1694
+tmux,1695
+source-file ~/.tmux.conf,1696
+source ~/.tmux.conf,1697
+ls,1698
+tmux,1699
+;s,1700
+ls,1701
+ls,1702
+bash,1703
+tmux,1704
+ls,1705
+exit,1706
+ls,1707
+tmux,1708
+ls,1709
+v .tmux.conf,1710
+"sudo mount -o uid=$(id -u),gid=$(id -g) /dev/sda ~/mem",1711
+sudo mount /dev/sda ~/mem,1712
+history | grep sda,1713
+y,1714
+ls,1715
+v,1716
+y,1717
+v,1718
+sudo umount /dev/sda,1719
+sudo mount /dev/sda ~/mem,1720
+pwd,1721
+ll,1722
+ls,1723
+pwd,1724
+dysk,1725
+cp -r ~/.config ~/mem/,1726
+y,1727
+ls,1728
+pwd,1729
+y,1730
+ping github.com,1731
+ffmpeg,1732
+ffmpeg --version,1733
+yay -S mpv,1734
+y,1735
+ls,1736
+gcl https://github.com/supermanten/rio.git,1737
+sudo gcl https://github.com/supermanten/rio.git,1738
+sudo git clone  https://github.com/supermanten/rio.git,1739
+y,1740
+ls,1741
+mpv YTDown.com_YouTube_58-Packages-and-crates-explained-in-Rust_Media_ZYbZI8kckLw_001_1080p.mp4,1742
+y,1743
+z ~/.config/,1744
+ld,1745
+ls,1746
+y,1747
+sudo umount /dev/sda,1748
+ls,1749
+sudo umount /dev/sda,1750
+lsblk,1751
+"mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem",1752
+"sudo mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem",1753
+cd mem/,1754
+cd Rust/,1755
+mpv YTDown.com_YouTube_58-Packages-and-crates-explained-in-Rust_Media_ZYbZI8kckLw_001_1080p.mp4,1756
+y,1757
+cd ~/.config/mpv/,1758
+ls,1759
+.,1760
+ls,1761
+.,1762
+ls,1763
+..,1764
+ls,1765
+rm mpv,1766
+cp ~/mem/rio/mpv/.config/mpv ./,1767
+cp -r ~/mem/rio/mpv/.config/mpv ./,1768
+ls,1769
+ls mpv/,1770
+mpv YTDown.com_YouTube_58-Packages-and-crates-explained-in-Rust_Media_ZYbZI8kckLw_001_1080p.mp4,1771
+z ~/.config/,1772
+gs,1773
+ping github.com,1774
+ls,1775
+ga,1776
+"gc ""mpv""",1777
+gp,1778
+ls,1779
+z,1780
+y,1781
+ls,1782
+pwd,1783
+ll,1784
+sudo umount /dev/sda,1785
+ls,1786
+pwd,1787
+ll,1788
+z nv,1789
+v,1790
+z,1791
+sudo umount /dev/sda,1792
+ll,1793
+ls,1794
+pwd,1795
+ls,1796
+p,1797
+ll,1798
+owd,1799
+l,1800
+ll,1801
+pwd,1802
+ll,1803
+lt,1804
+z,1805
+ls,1806
+pwd,1807
+lsd,1808
+ll,1809
+lla,1810
+sys mem,1811
+sys disks,1812
+y,1813
+ls,1814
+ll,1815
+lla,1816
+ls,1817
+p,1818
+pp,1819
+~/Downloads,1820
+ls,1821
+y,1822
+z,1823
+ls,1824
+pwd,1825
+ls,1826
+cd coding/,1827
+ls,1828
+cd node-js/Algo-javascript/exercises/,1829
+ls,1830
+jg package.json,1831
+jq,1832
+jq package.json,1833
+open package.json,1834
+open package-lock.json,1835
+curl wttr.in/Mumbai,1836
+ls,1837
+pwd,1838
+ll,1839
+lsd,1840
+pwd,1841
+ll,1842
+lsd,1843
+ls,1844
+pwd,1845
+ll,1846
+pwd,1847
+ll,1848
+pwd,1849
+ll,1850
+pwd,1851
+ll,1852
+pwd,1853
+ls,1854
+ping github.com,1855
+~/Downloads,1856
+ls,1857
+rm -r tartarus-grub/,1858
+tar -xvf pomo_Linux_x86_64.tar.gz,1859
+./pomo,1860
+./pomo --help,1861
+mkdir bin,1862
+mv pomo bin/,1863
+ls,1864
+rm LICENSE README.md pomo.yaml pomo_Linux_x86_64.tar.gz,1865
+ls,1866
+tar -xvf bookokrat-v0.2.2-x86_64-unknown-linux-gnu.tar.gz,1867
+ls,1868
+du,1869
+./bookokrat --help,1870
+ls,1871
+./bookokrat --help,1872
+dysk,1873
+ls,1874
+./bookokrat,1875
+y,1876
+ls,1877
+y,1878
+z nushell,1879
+v,1880
+pomo,1881
+pomo --help,1882
+pomo --help 5m,1883
+pomo 5m,1884
+y,1885
+bookokrat,1886
+y,1887
+ls,1888
+z ~/.config/,1889
+gss,1890
+ga,1891
+"gc ""mpv""",1892
+gp,1893
+y,1894
+l,1895
+ls,1896
+z,1897
+cd coding/books/,1898
+bookokrat,1899
+ls,1900
+y,1901
+bookokrat,1902
+ls,1903
+ping github.com,1904
+ls,1905
+yay -Sy,1906
+yay -Syu,1907
+sudo timeshift --list,1908
+"sudo timeshift --delete ""2026-01-04_19-50-12""",1909
+ls,1910
+"sudo timeshift --delete --snapshot ""2026-01-04_19-50-12""",1911
+sudo timeshift --list,1912
+"sudo timeshift --delete --snapshot ""2026-01-01_19-35-41""",1913
+sudo timeshift --list,1914
+dysk,1915
+ls,1916
+z nv,1917
+pwd,1918
+ll,1919
+ping github.com,1920
+v,1921
+ls,1922
+pwd,1923
+curl wttr.in/Mumbai,1924
+~/Downloads,1925
+ls,1926
+tar -xvf tock_Linux_x86_64.tar.gz,1927
+./pacsea,1928
+ls,1929
+sudo chmod +x pacsea,1930
+./pacsea,1931
+ls,1932
+rm pacsea,1933
+ls,1934
+./tock,1935
+./tock start,1936
+ls,1937
+pwd,1938
+ll,1939
+pwd,1940
+pomo 5m,1941
+ls,1942
+y,1943
+dysk,1944
+ll,1945
+cd ,1946
+cd coding/books/,1947
+ls,1948
+bookokrat ,1949
+ls,1950
+z,1951
+ls,1952
+la,1953
+z oxwm,1954
+v,1955
+ls,1956
+z ~/coding/books/,1957
+bookokrat ,1958
+nvim .bookokrat_settings.yaml,1959
+z,1960
+y,1961
+ls,1962
+gs,1963
+ga,1964
+gc 'add theme',1965
+ls,1966
+rm pacsea,1967
+rm -r pacsea,1968
+ga,1969
+gc 'add theme',1970
+gp,1971
+ls,1972
+~/Downloads,1973
+ls,1974
+rm tock_Linux_x86_64.tar.gz,1975
+rm tock,1976
+ls,1977
+tar -xvf pandoc-3.8.3-linux-amd64.tar.gz,1978
+ls,1979
+cd pandoc-3.8.3/,1980
+ls,1981
+cd bin/,1982
+sl,1983
+ls,1984
+./pandoc --version,1985
+./pandoc --help,1986
+./pandoc -v,1987
+ls,1988
+dysk,1989
+ls,1990
+v .tmux.conf,1991
+z,1992
+ls,1993
+la,1994
+v .tmux.conf,1995
+ls,1996
+pwd,1997
+ls,1998
+pwd,1999
+ls,2000
+l,2001
+ls,2002
+pwd,2003
+tmux,2004
+ls,2005
+p,2006
+tmux attach,2007
+tmux new -s coding,2008
+tmux new -s books,2009
+tmux attach coding,2010
+tmux attach ,2011
+tmux ls,2012
+tmux,2013
+tmux ls,2014
+tmux new -s books,2015
+tmux attach-session -t books.,2016
+ls,2017
+p,2018
+y,2019
+z nushell,2020
+z .cli,2021
+cd bin/pandoc/,2022
+ls,2023
+pandoc,2024
+pandoc -v,2025
+v,2026
+ls,2027
+~/Downloads,2028
+ls,2029
+y,2030
+ls,2031
+pandoc Python.pdf -o Python.epub,2032
+pandoc -f html -t epub Python.pdf -o Python.epub,2033
+ls,2034
+z ~/.config/,2035
+ls,2036
+pandoc -f html -t epub Python.pdf -o Python.epub,2037
+ls,2038
+z ~/Downloads/,2039
+pandoc -f html -t epub Python.pdf -o Python.epub,2040
+ls,2041
+z ~/.cli/bin/,2042
+ls,2043
+rm pandoc,2044
+rm -r pandoc,2045
+ls,2046
+pandoc -v,2047
+ls,2048
+cd,2049
+~/Downloads,2050
+ls,2051
+mv Python.epub ~/coding/books/,2052
+z,2053
+z coding/books/,2054
+ls,2055
+bookokrat ,2056
+bookokrat Python.epub,2057
+y,2058
+bookokrat ,2059
+rm Python.epub,2060
+ls,2061
+~/Downloads,2062
+ls,2063
+mv Python.epub ~/coding/books/,2064
+bookokrat ,2065
+bookokrat Python.epub,2066
+y,2067
+bookokrat ,2068
+rm Python.epub,2069
+ls,2070
+pwd,2071
+ls,2072
+rm Python.uh9Tb1QI.epub.part,2073
+rm .bookokrat_comments/,2074
+ls,2075
+mv Python.epub ~/coding/books/,2076
+ls,2077
+bookokrat ,2078
+y,2079
+ls,2080
+~/Downloads,2081
+git clone https://github.com/dsanson/terminal_dimensions,2082
+cd terminal_dimensions/,2083
+ls,2084
+gcc terminal_dimensions.c -o terminal_dimensions,2085
+ls,2086
+y,2087
+ls,2088
+./terminal Python.pdf,2089
+y,2090
+yay -Ss zathura,2091
+yay -S zathura,2092
+ls,2093
+p,2094
+mv Python.pdf ~/coding/books/,2095
+ls,2096
+z coding/books/,2097
+z,2098
+z coding/books/,2099
+ls,2100
+zathura --version,2101
+zathura --help,2102
+z coding/books/,2103
+zathura Python.pdf,2104
+tmux attach-session -t books.,2105
+yay -S zathura-pdf-poppler,2106
+ls,2107
+zathura Python.pdf,2108
+yay -Rns zathura-pdf-poppler zathura,2109
+ls,2110
+fastfetch,2111
+~/Downloads,2112
+ls,2113
+tar -xvf mupdf-1.27.0-source.tar.gzpandoc,2114
+tar -xvf mupdf-1.27.0-source.tar.gz,2115
+ld,2116
+y,2117
+ls,2118
+rm -r mupdf-1.27.0-source/,2119
+rm mupdf-1.27.0-source.tar.gz,2120
+ls,2121
+dysk,2122
+ls,2123
+pwd,2124
+z,2125
+du,2126
+~/Downloads,2127
+ls,2128
+pwd,2129
+ping github.com,2130
+ls,2131
+~/Downloads,2132
+l,2133
+ls,2134
+gcl https://github.com/rivoten05/onvim.git,2135
+y,2136
+z nv,2137
+v,2138
+ka,2139
+la,2140
+z ~/.config/,2141
+gss,2142
+gs,2143
+ga,2144
+gc 'add theme',2145
+gss,2146
+gp,2147
+git pull,2148
+gss,2149
+gp,2150
+ls,2151
+owd,2152
+o,2153
+p,2154
+touch zathurarc,2155
+v zathurarc,2156
+nvim README.md,2157
+gss,2158
+ga,2159
+gc 'add theme',2160
+gp,2161
+git pull,2162
+ls,2163
+Zathura yay -S zathura zathura zathura-pdf-mupdf zathura-djvu zathura-ps,2164
+yay -S zathura zathura zathura-pdf-mupdf zathura-djvu zathura-ps,2165
+ping github.com,2166
+yay -S zathura zathura zathura-pdf-mupdf zathura-djvu zathura-ps,2167
+ls,2168
+pwd,2169
+dysk,2170
+y,2171
+zathura Python.pdf,2172
+y,2173
+gss,2174
+ls,2175
+pwd,2176
+z ~/.config/,2177
+ls,2178
+y,2179
+z coding/books/,2180
+zathura Python.pdf,2181
+z ~/.config/,2182
+ls,2183
+zathura Python.pdf,2184
+nvim zathurarc,2185
+yay -S gdk-pixbuf2,2186
+ls,2187
+zathura Python.pdf,2188
+yay -S shared-mime-info,2189
+y,2190
+"$env.XDG_DATA_DIRS=""/usr/local/share:/usr/share""",2191
+zathura Python.pdf,2192
+ls,2193
+sudo gdk-pixbuf-query-loaders --update-cache,2194
+ls -d /usr/lib/*/gdk-pixbuf-2.0/2.10.0,2195
+sudo mkdir /usr/lib/gdk-pixbuf-2.0/2.10.0/,2196
+sudo mkdir -p /usr/lib/gdk-pixbuf-2.0/2.10.0/,2197
+sudo gdk-pixbuf-query-loaders --update-cache,2198
+z ,2199
+z coding/books/,2200
+zathura Python.pdf,2201
+yay -S libgdk-pixbuf2.0-0,2202
+yay -S gdk-pixbuf2,2203
+ls,2204
+zathura Python.pdf,2205
+"$env.XDG_DATA_DIRS=""/usr/local/share:/usr/share""",2206
+"$env.XDG_DATA_DIRS = ""/usr/local/share:/usr/share""",2207
+ls,2208
+zathura Python.pdf,2209
+"find /usr/lib -name ""loaders.cache""",2210
+"$env.GDK_PIXBUF_MODULE_FILE = ""/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache""",2211
+zathura Python.pdf,2212
+yay -S shared-mime-info,2213
+dysk,2214
+tmux,2215
+make --version,2216
+y,2217
+zathura Python.pdf,2218
+ls,2219
+pwd,2220
+ll,2221
+"sudo mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem",2222
+z,2223
+z mem,2224
+s,2225
+ls,2226
+dysk,2227
+ll,2228
+du,2229
+y,2230
+ls,2231
+rm -r Rust/,2232
+ls,2233
+dysk,2234
+y,2235
+rm -r rio,2236
+ls,2237
+z ~/.config/,2238
+rm .git,2239
+rm -r .git,2240
+dysk,2241
+gss,2242
+gi,2243
+ga,2244
+gc 'add theme',2245
+gss,2246
+pwd,2247
+ll,2248
+pwd,2249
+ll,2250
+gss,2251
+pwd,2252
+z,2253
+ls,2254
+pwd,2255
+ll,2256
+ls,2257
+dysk,2258
+z ~/mem,2259
+ls,2260
+du,2261
+rm -rsdk,2262
+rm -r sdk,2263
+dysk,2264
+z ~/.local/share,2265
+ls,2266
+y,2267
+ls,2268
+dysk,2269
+ll,2270
+yay -Sy,2271
+yay -Syu,2272
+ls,2273
+pwd,2274
+ll,2275
+z ~/.config/,2276
+git branch -M main,2277
+git push -u origin main,2279
+ls,2280
+z v,2281
+v,2282
+z nv,2283
+v,2284
+tmux new -s rio,2285
+z nv,2286
+v,2287
+ls,2288
+v,2289
+ls,2290
+z mem,2291
+ls,2292
+dysk,2293
+gcl https://github.com/rivoten05/books.git,2294
+y,2295
+dysk,2296
+l,2297
+ll,2298
+ls,2299
+ll,2300
+l,2301
+la,2302
+l,2303
+ll,2304
+p,2305
+sudo umount /dev/sda,2306
+ll,2307
+ls,2308
+p,2309
+ll,2310
+p,2311
+dysk,2312
+z,2313
+du,2314
+y,2315
+du,2316
+dysk,2317
+ls,2318
+dysk,2319
+ls,2320
+ping github.com,2321
+yay -Sy,2322
+yay -Syu,2323
+ls,2324
+z nv,2325
+z,2326
+~/Downloads,2327
+ls,2328
+gcl https://github.com/rivoten05/onvim.git,2329
+y,2330
+ls,2331
+gss,2332
+gs | fzf,2333
+gss,2334
+ga,2335
+gc 'add theme',2336
+gp,2337
+v,2338
+ls,2339
+sys disks,2340
+z oxwm,2341
+v,2342
+ls,2343
+owd,2344
+ll,2345
+pwd,2346
+ll,2347
+pwd,2348
+fastfetch,2349
+yay -S localsend-bin,2350
+la,2351
+pq,2352
+ll,2353
+l,2354
+ll,2355
+pwd,2356
+ll,2357
+y,2358
+ls,2359
+..,2360
+ll,2361
+ls,2362
+du,2363
+y,2364
+ls,2365
+..,2366
+ls,2367
+npm test anagrams/test.js,2368
+z,2369
+z anagra,2370
+ls,2371
+..,2372
+ls,2373
+cat completed_exercises/anagrams/index.js,2374
+npm test anagrams/test.js,2375
+v,2376
+y,2377
+ls,2378
+rm -r api,2379
+ls,2380
+disk,2381
+dysk,2382
+ls,2383
+z,2384
+ls,2385
+ll,2386
+ls,2387
+z books,2388
+ls,2389
+bookokrat ,2390
+du,2391
+z,2392
+y,2393
+ls,2394
+du,2395
+y,2396
+du,2397
+rm bookokrat,2398
+dysk,2399
+ls,2400
+z books,2401
+y,2402
+du,2403
+rm .bookokrat_comments/,2404
+l,2405
+ls,2406
+pwd,2407
+ll,2408
+z,2409
+pwd,2410
+dysk,2411
+z ~/.local/share/,2412
+ls,2413
+cd Trash/,2414
+l,2415
+cd files/,2416
+ls,2417
+y,2418
+z,2419
+ls,2420
+y,2421
+du,2422
+ls,2423
+..,2424
+ls,2425
+pwd,2426
+ll,2427
+y,2428
+dart --version,2429
+pwd,2430
+ll,2431
+du,2432
+..,2433
+ls,2434
+...,2435
+ls,2436
+z .sdk/,2437
+l,2438
+du,2439
+ls,2440
+pwd,2441
+ll,2442
+cargo,2443
+ll,2444
+pwd,2445
+y,2446
+ls,2447
+..,2448
+ls,2449
+cd coding/,2450
+z rust-lang/,2451
+ls,2452
+cd cli/,2453
+ls,2454
+cargo r -q,2455
+ls,2456
+history | tail,2457
+cargo r -q,2458
+v,2459
+ll,2460
+pwd,2461
+ll,2462
+p,2463
+btm,2464
+btop,2465
+ls,2466
+ll,2467
+l,2468
+y,2469
+z yazi,2470
+ls,2471
+v,2472
+y,2473
+ll,2474
+ls,2475
+pwd,2476
+ll,2477
+lla,2478
+ls,2479
+ll,2480
+lls,2481
+ll,2482
+lla,2483
+lt,2484
+z kitty,2485
+ls,2486
+tree,2487
+lt,2488
+z nv,2489
+lt,2490
+ls,2491
+ll,2492
+pwd,2493
+ll,2494
+pwd,2495
+ll,2496
+ls,2497
+l,2498
+ll,2499
+l,2500
+ll,2501
+l,2502
+ll,2503
+l,2504
+ls,2505
+z nv,2506
+v,2507
+lls,2508
+ll,2509
+pwd,2510
+btm,2511
+ps,2512
+"ps | where name =~ ""firefox""",2513
+ls,2514
+btm,2515
+fastfetch,2516
+ls,2517
+pwd,2518
+ll,2519
+ls,2520
+pwd,2521
+ll,2522
+history,2523
+pwd,2524
+ping github.com,2525
+ls,2526
+y,2527
+z yazi,2528
+y,2529
+v,2530
+gss,2531
+ga,2532
+gc 'chabge images',2533
+ga,2534
+z ~/.config/,2535
+ga,2536
+gc 'chabge images',2537
+gp,2538
+ll,2539
+pwd,2540
+sl,2541
+history,2542
+p,2543
+ll,2544
+pwd,2545
+ll,2546
+z nushell,2547
+ls,2548
+du,2549
+ls,2550
+v,2551
+history,2552
+clean-hiatory,2553
+clean-history,2554
+z nushell/,2555
+clean-history,2556
+ls,2557
+z,2558
+ls,2559
+cp ~/.config/nushell/history.txt ~/Downloads/,2560
+v,2561
+e,2562
+tmux new -s rio,2563
+e,2564
+z ~/.config/,2565
+gss,2566
+pwd,2567
+ll,2568
+pwd,2569
+history | uniq-by command,2570
+ls,2571
+pwd,2572
+ll,2573
+y,2574
+ls,2575
+ping github.com,2576
+yay -Sy,2577
+yay -Syu,2578
+yay -Sy,2579
+yay -Syu,2580
+z nv,2581
+v,2582
+ls,2583
+uv tool update,2584
+uv tool upgrade posting,2585
+ls,2586
+pwd,2587
+ll,2588
+pwd,2589
+ll,2590
+dysk,2591
+ls,2592
+dysk,2593
+sudo timeshift --list,2594
+"sudo timeshift --create --comments ""before deleting cahce packages"" --tags o",2595
+yay -Sc,2596
+dysk,2597
+yay -Scc,2598
+sudo pacman -Scc,2599
+cd /var/cache/pacman/pkg/,2600
+ls,2601
+du,2602
+y,2603
+sudo du,2604
+z,2605
+sudo cd /var/cache/pacman/pkg/,2606
+ls,2607
+z,2608
+sudo rm -rf /var/cache/pacman/pkg/download-*,2609
+dysk,2610
+sudo pacman -Scc,2611
+rm -rf ~/.cache/yay/*,2612
+dysk,2613
+du -hd 1 ~ | sort -hr | head -n 10,2614
+basj,2615
+bash,2616
+rustup self update,2617
+rustup toolchain prune,2618
+dysk,2619
+sl,2620
+l,2621
+dy,2622
+dysk,2623
+ls,2624
+du,2625
+y,2626
+ls,2627
+fu,2628
+du,2629
+cd toolchains/,2630
+ls,2631
+du,2632
+dysk,2633
+ls,2634
+sys mem,2635
+sys disk,2636
+sys disks,2637
+duf -f,2638
+df -h,2639
+fastfetch,2640
+ls,2641
+pwd,2642
+ll,2643
+z,2644
+ls,2645
+y,2646
+du,2647
+cd rust-lang/,2648
+ls,2649
+cd cli/,2650
+ls,2651
+cargo r -q,2652
+z,2653
+ls,2654
+ll,2655
+pwd,2656
+ll,2657
+lsblk,2658
+"sudo mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem",2659
+ls,2660
+cd mem,2661
+ls,2662
+ll,2663
+pwd,2664
+ll,2665
+dysk,2666
+gcl https://github.com/rivoten05/books.git,2667
+ls,2668
+cd books/,2669
+ls,2670
+dysk,2671
+ll,2672
+ls,2673
+ls | grep rust,2674
+ls | grep python,2675
+ls | grep Rust,2676
+zathura `Lets Get Rusty Cheat Sheet.pdf`,2677
+zathura `Fullstack Rust.pdf`,2678
+l,2679
+ls | grep Rust,2680
+ll,2681
+ls,2682
+dysk,2683
+z cli,2684
+ls,2685
+bluetoothctl,2686
+yay -Ss docker,2687
+v,2688
+yay -Ss gh,2689
+yay -Ss gh-cli,2690
+~/Downloads,2691
+ls,2692
+tar -xvf gh_2.83.2_linux_amd64.tar.gz,2693
+ls,2694
+y,2695
+ls,2696
+./gh --version,2697
+y,2698
+z,2699
+gh --version,2700
+gh auth login,2701
+gh auth status,2702
+gh codespace list,2703
+gh auth refresh -h github.com -s codespace,2704
+gh codespace list,2705
+z coding,2706
+ls,2707
+codespcae.md,2708
+nvim codespcae.md,2709
+gh codespace ssh,2710
+tmux,2711
+ls,2712
+gh codespace ssh,2713
+gh codespace stop,2714
+sudo umount /dev/sda,2715
+ls,2716
+ll,2717
+pwd,2718
+z coding,2719
+ls,2720
+y,2721
+ll,2722
+dysk,2723
+ll,2724
+pwd,2725
+ll,2726
+pwd,2727
+z coding,2728
+ls,2729
+z rust-lang/cli/,2730
+ls,2731
+v,2732
+"sudo mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem",2733
+ls,2734
+cd,2735
+ls,2736
+pd,2737
+p,2738
+😅😅😅😅😅😅😅😅😅😅,2739
+ll,2740
+cd mem/books/,2741
+ls,2742
+z coding,2743
+ls,2744
+cd py-code/,2745
+ls,2746
+mkdir api,2747
+uv init,2748
+uv venv,2749
+overlay use .venv/bin/activate.nu ,2750
+"uv add ""fastapi[standard]""",2751
+ping github.com,2752
+"uv add ""fastapi[standard]""",2753
+ls,2754
+posting,2755
+http localhost:8000,2756
+http localhost:8000/hello,2757
+http localhost:8000/hello/rio,2758
+http localhost:8000/hello?name=rio,2759
+http localhost:8000/hello?namea=rio,2760
+http localhost:8000/hello?name=rio,2761
+z books,2762
+ls,2763
+z ~/mem/books/,2764
+ls,2765
+uv run fastapi dev main.py --host 127.0.0.1 --port 8000,2766
+v,2767
+deactivate,2768
+ls,2769
+x,2770
+z,2771
+z ~/mem/books/,2772
+ls,2773
+ping github.com,2774
+ls,2775
+yay -Sy,2776
+yay -Syu,2777
+sqlite3,2778
+ls,2779
+z nv,2780
+v,2781
+ll,2782
+ls,2783
+pwd,2784
+ll,2785
+y,2786
+~/Downloads,2787
+ls,2788
+tar -xvf opencode-linux-x86_64.tar.gz,2789
+y,2790
+z,2791
+z cli,2792
+ls,2793
+opencode,2794
+opencode .,2795
+opencode -v,2796
+opencode,2797
+opencode init,2798
+opencode setup,2799
+opencode --list-agents,2800
+la,2801
+z,2802
+la,2803
+v .opencode.json,2804
+rm .opencode.json,2805
+z bin,2806
+ls,2807
+rm opencode,2808
+z Downloads/,2809
+z Downloads,2810
+ls,2811
+rm opencode-linux-x86_64.tar.gz,2812
+ls,2813
+rm LICENSE,2814
+rm README.md,2815
+ls,2816
+z gemini,2817
+z ~/coding/gemini/,2818
+ls,2819
+node gemini.js,2820
+ls,2821
+pwd,2822
+ls,2823
+la,2824
+ll,2825
+z,2826
+y,2827
+z cli,2828
+ls,2829
+node ~/coding/gemini/gemini.js,2830
+ls,2831
+y,2832
+sudo umount /dev/sda,2833
+ls,2834
+pwd,2835
+ll,2836
+ping github.com,2837
+ll,2838
+gcc --version,2839
+make --version,2840
+ll,2841
+pwd,2842
+ll,2843
+pwd,2844
+ll,2845
+pwd,2846
+bluetoothctl,2847
+sudo systemctl restart bluetooth,2848
+sudo journalctl -u bluetooth -f,2849
+"yay -Q | grep ""pipe""",2850
+systemctl --user restart pipewire wireplumber pipewire-pulse,2851
+bluetoothctl,2852
+z script,2853
+gss,2854
+v,2855
+"yay -Q | grep ""pipe""",2856
+"yay -Q | grep ""blue""",2857
+"yay -Q | grep ""eire""",2858
+"yay -Q | grep ""wire""",2859
+systemctl --user enable --now pipewire.service pipewire-pulse.service wireplumber.service,2860
+modules short | grep blue,2861
+dysk,2862
+ll,2863
+pwd,2864
+bluetoothctl,2865
+ls,2866
+cd Downloads/,2867
+ls,2868
+tar -xvf raylib-5.5_linux_amd64.tar.gz,2869
+y,2870
+ls,2871
+y,2872
+ls,2873
+z nv,2874
+v,2875
+z games,2876
+z ~/coding/games/,2877
+ls,2878
+cd window/,2879
+ls,2880
+touch main.c,2881
+lt,2882
+ls,2883
+make,2884
+ls,2885
+./basic_window,2886
+make,2887
+ls,2888
+./basic_window,2889
+rm basic_window,2890
+mak,2891
+make,2892
+./basic_window,2893
+make run,2894
+ls,2895
+gi,2896
+ga,2897
+"gc ""raylib initial window""",2898
+gss,2899
+ls,2900
+git branch -M main,2901
+z ,2902
+cd coding/,2903
+ls,2904
+ls,2905
+git push -u origin main,2906
+make run,2907
+mkdir assets,2908
+ls,2909
+cp ~/Downloads/player.gif assets/,2910
+lt,2911
+z ~/.config/,2912
+ls,2913
+gss,2914
+ga,2915
+"gc ""raylib initial window""",2916
+gp,2917
+z nushell/,2918
+nvim history.txt,2919
+z ~/.config/,2920
+gss,2921
+git add .,2922
+git commit --amend,2923
+gss,2924
+git push ,2925
+git rm -r --cached gh/,2926
+git commit --amend --no-edit,2927
+git show --name-only,2928
+git show --name-only | cat,2929
+git push ,2930
+v,2931
+z ~/Downloads/,2932
+nvim kisan.txt,2933
+ls,2934
+pwd,2935
+ll,2936
+ls,2937
+z game,2938
+ls,2939
+y,2940
+z,2941
+ls,2942
+z window,2943
+l,2944
+z nv,2945
+v,2946
+make run,2947
+v,2948
+v,2949
+gss,2950
+ga,2951
+"gc ""cland _formate""",2952
+gp,2953
+gss,2954
+ga,2955
+"gc ""cland _formate""",2956
+gp,2957
+make run,2958
+gss,2959
+ga,2960
+"gc ""add movement""",2961
+gp,2962
+make run,2963
+gss,2964
+ga,2965
+"gc ""add movement""",2966
+gp,2967
+make run,2968
+w,2969
+make run,2970
+ga,2971
+gss,2972
+"gc ""add movement""",2973
+gp,2974
+make run,2975
+gs,2976
+ga,2977
+"gc """"add health",2978
+"gc ""add health""",2979
+gp,2980
+z mem,2981
+ls,2982
+pwd,2983
+ll,2984
+dysk,2985
+ll,2986
+lsd,2987
+pp,2988
+ls,2989
+ll,2990
+p,2991
+ll,2992
+lsd,2993
+ll,2994
+pwd,2995
+ll,2996
+lsd,2997
+ll,2998
+lsd,2999
+ll,3000
+lsd,3001
+ll,3002
+lsd,3003
+pwd,3004
+ping github.com,3005
+yay -Sy,3006
+yay -Syu,3007
+ll,3008
+pwd,3009
+ll,3010
+z nv,3011
+v,3012
+ls,3013
+dart --version,3014
+dart ,3015
+z mv,3016
+v,3017
+gss,3018
+git diff | cat,3019
+ga,3020
+"gc ""fix snippets""",3021
+gp,3022
+v,3023
+gss,3024
+git diff | cat,3025
+ga,3026
+"gc ""fix ui""",3027
+gss,3028
+z ~/.config/,3029
+gss,3030
+git diff | cat,3031
+gp,3032
+ls,3033
+pwd,3034
+ll,3035
+gss,3036
+ls,3037
+y,3038
+gss,3039
+ga,3040
+gss,3041
+"gc ""fix ui""",3042
+gss,3043
+gp,3044
+gss,3045
+ls,3046
+ll,3047
+pwd,3048
+lsd,3049
+ll,3050
+pwd,3051
+ls,3052
+ll,3053
+pwd,3054
+lsd,3055
+pp,3056
+ll,3057
+pwd,3058
+ll,3059
+z nv,3060
+v,3061
+z game,3062
+ls,3063
+z window,3064
+v,3065
+ls,3066
+owd,3067
+ll,3068
+zl,3069
+z,3070
+ls,3071
+z coding/node-js/,3072
+ls,3073
+gcl https://github.com/nasha-wanich/little-calender.git,3074
+gcl https://github.com/nasha-wanich/little-calendar.git,3075
+cd little-calendar/,3076
+l,3077
+ls,3078
+y,3079
+ls,3080
+p,3081
+ll,3082
+npm install ,3083
+y,3084
+ls,3085
+npm i electron,3086
+y,3087
+npm run start,3088
+ls,3089
+du,3090
+dysk,3091
+npm run start,3092
+v,3093
+npm run start,3094
+ls,3095
+rm r node_modules/o,3096
+rm r node_modules,3097
+rm -r node_modules,3098
+ls,3099
+du,3100
+..,3101
+du,3102
+z,3103
+dysk,3104
+q,3105
+ping github.com,3106
+yay -Sy,3107
+yay -Syu,3108
+z nv,3109
+v,3110
+dysk,3111
+ll,3112
+pwd,3113
+ll,3114
+pwd,3115
+ll,3116
+du,3117
+cd .cache/,3118
+ls,3119
+du,3120
+rm -rf ~/.cache/yay/*,3121
+sudo pacman -Scc,3122
+dysk,3123
+ls,3124
+z,3125
+pwd,3126
+ll,3127
+dysk,3128
+ll,3129
+bash,3130
+"sudo timeshift --create --comments ""ugrade packages"" --tags o",3131
+dysk,3132
+sudo paccache -r,3133
+sudo pacman -Qtdq,3134
+journalctl,3135
+journalctl --disk-usage,3136
+dysk,3137
+ls,3138
+sudo timeshift --list,3139
+"sudo timeshift --delete --snapshot ""2026-01-11_12-06-52""",3140
+sudo timeshift --list,3141
+"sudo timeshift --delete --snapshot ""2026-01-05_20-30-06""",3142
+sudo timeshift --list,3143
+dysk,3144
+z game,3145
+ls,3146
+cd window/,3147
+make run,3148
+v,3149
+y,3150
+ls,3151
+pp,3152
+ls,3153
+ll,3154
+y,3155
+du,3156
+cd py-code/,3157
+ls,3158
+..,3159
+cd rust-lang/,3160
+ls,3161
+cd cli/,3162
+v,3163
+..,3164
+ls,3165
+rm -r cli/,3166
+dysk,3167
+sys disks,3168
+ll,3169
+pwd,3170
+ll,3171
+fastfetch,3172
+z window,3173
+ls,3174
+y,3175
+ls,3176
+make run,3177
+v,3178
+y,3179
+du,3180
+dysk,3181
+ping github.com,3182
+yay -Sy,3183
+yay -Syu,3184
+ls,3185
+dysk,3186
+rm -rf ~/.cache/yay/*,3187
+ls,3188
+dysk,3189
+sudo pacman -Qtdq,3190
+sudo pacman -Scc,3191
+ls,3192
+cd coding/,3193
+ls,3194
+du,3195
+y,3196
+ll,3197
+pwd,3198
+ll,3199
+pwd,3200
+ll,3201
+pwd,3202
+l,3203
+z,3204
+du .cargo/,3205
+ll,3206
+wd,3207
+ll,3208
+l,3209
+ls,3210
+z  .cargo/,3211
+ls,3212
+z bin,3213
+ls,3214
+y,3215
+rustip doc,3216
+rustup doc,3217
+dysk,3218
+ls,3219
+pwd,3220
+z game,3221
+ls,3222
+make run,3223
+ping github.com,3224
+z nv,3225
+v,3226
+ls,3227
+fastfetch,3228
+make run,3229
+y,3230
+ls,3231
+pwd,3232
+ll,3233
+ping github.com,3234
+yay -Sy,3235
+yay -Syu,3236
+z nv,3237
+v,3238
+ls,3239
+pwd,3240
+ls,3241
+pp,3242
+dysk,3243
+z Trash,3244
+ls,3245
+ll,3246
+pwd,3247
+ll,3248
+pwd,3249
+ll,3250
+pwd,3251
+ll,3252
+l,3253
+pwd,3254
+ll,3255
+l,3256
+ls,3257
+dysk,3258
+sudo pacman -Scc,3259
+rm -rf ~/.cache/yay/*,3260
+ls,3261
+pwd,3262
+ll,3263
+z nv,3264
+v,3265
+z,3266
+z games,3267
+ls,3268
+ll,3269
+y,3270
+ll,3271
+y,3272
+ls,3273
+lsblk,3274
+"sudo mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem",3275
+dysk,3276
+y,3277
+ls,3278
+y,3279
+ll,3280
+pwd,3281
+lla,3282
+~/Downloads,3283
+ls,3284
+unzip bun-linux-x64.zip,3285
+ls,3286
+y,3287
+du,3288
+y,3289
+du,3290
+bun --version,3291
+bun -v,3292
+bun,3293
+~/Downloads,3294
+y,3295
+z ~/.cli/,3296
+ls,3297
+z bin/,3298
+ls,3299
+./bun,3300
+ll,3301
+rm bun,3302
+~/Downloads,3303
+ls,3304
+rm bun,3305
+rm bun-linux-x64.zip,3306
+ls,3307
+rm raylib-5.5_linux_amd64.tar.gz,3308
+ls,3309
+unzip bun-linux-x64-musl.zip,3310
+ls,3311
+cd bun-linux-x64-musl/,3312
+ls,3313
+./bun,3314
+./bun -v,3315
+./bun --version,3316
+..,3317
+ls,3318
+rm -r bun,3319
+rm -r bun-linux-x64-musl/,3320
+rm bun-linux-x64-musl.zip,3321
+ls,3322
+unzip bun-linux-x64-profile.zip,3323
+cd bun-linux-x64-profile/,3324
+ls,3325
+./bun-profile --version,3326
+..,3327
+ls,3328
+rm bun-linux-x64-musl.zip,3329
+rm bun-linux-x64-profile.zip,3330
+rm -rf bun-linux-x64-profile/,3331
+ls,3332
+unzip bun-linux-x64-musl.zip,3333
+ls,3334
+cd bun-linux-x64-musl/,3335
+./bun --version,3336
+bash,3337
+./bun --version,3338
+ls,3339
+chmod +x bun,3340
+./bun --version,3341
+lld ./bun,3342
+..,3343
+ls,3344
+rm bun-linux-x64-musl.zip bun-linux-x64.zip,3345
+ls,3346
+rm -rf bun-linux-x64-musl/,3347
+ls,3348
+pwd,3349
+ll,3350
+pwd,3351
+ll,3352
+pwd,3353
+ping github.com,3354
+ll,3355
+dart --version,3356
+ls,3357
+pwd,3358
+ll,3359
+sudo umount /dev/sda,3360
+ls,3361
+pwd,3362
+ping github.com,3363
+z nv,3364
+z oxwm,3365
+gs,3366
+ga,3367
+"gc ""fix ui""",3368
+p,3369
+c ~/.config/,3370
+z ~/.config/,3371
+ls,3372
+gs,3373
+ga,3374
+"gc ""fix ui""",3375
+fp,3376
+gp,3377
+z nv,3378
+v,3379
+yay -Sy,3380
+yay -Syu,3381
+ls,3382
+pwd,3383
+ll,3384
+z nv,3385
+v,3386
+z nv,3387
+v,3388
+z nushell/,3389
+ls,3390
+cd ~/.config/,3391
+ls,3392
+cd nushell/,3393
+v,3394
+cd ~/.config/,3395
+gs,3396
+ls,3397
+git status,3398
+ls,3399
+z ~/.config/,3400
+gs,3401
+cargo ,3402
+nvim,3403
+gs,3404
+ping,3405
+ping github.com,3406
+z nv,3407
+v,3408
+yay -Sy,3409
+yay -Syu,3410
+"sudo timeshift --create --comments ""ugrade packages 24 jqn"" --tags o",3411
+ls,3412
+pwd,3413
+cargo ,3414
+ll,3415
+pwd,3416
+ll,3417
+z nv,3418
+v,3419
+ls,3420
+z ~/.config/,3421
+gs,3422
+ga,3423
+"gc ""fix nu""",3424
+gp,3425
+ls,3426
+pwd,3427
+ll,3428
+ls,3429
+dysk,3430
+rm -rf ~/.cache/yay/*,3431
+ls,3432
+l,3433
+ls,3434
+ping github.com,3435
+yay -Syu,3436
+bluetoothctl,3437
+yay -Sy,3438
+yay -Syu,3439
+ll,3440
+pwd,3441
+ll,3442
+ping github.com,3443
+ll,3444
+pwd,3445
+yay -Sy,3446
+yay -Syu,3447
+uv tool upgrade posting,3448
+ll,3449
+z nv,3450
+v,3451
+ls,3452
+pwd,3453
+pip,3454
+pip3,3455
+uv pip list,3456
+ls,3457
+history | uniq-by command,3458
+history ,3459
+history | uniq-by command,3460
+pwd,3461
+ll,3462
+pwd,3463
+ll,3464
+pwd,3465
+ll,3466
+pw,3467
+pwd,3468
+ll,3469
+~/Downloads,3470
+ls,3471
+y,3472
+bash,3473
+ls,3474
+y,3475
+rm Bindesh@1998.7z,3476
+ls,3477
+rm passwords.csv,3478
+ls,3479
+rm -r onvim/,3480
+ls,3481
+pwd,3482
+ll,3483
+pwd,3484
+ll,3485
+ls,3486
+dysk,3487
+ll,3488
+pwd,3489
+ll,3490
+z Trash,3491
+ls,3492
+z files/,3493
+ls,3494
+lt,3495
+y,3496
+rm api/,3497
+ls,3498
+p,3499
+z,3500
+ls,3501
+ll,3502
+pwd,3503
+ll,3504
+z ~/.config/,3505
+gs,3506
+ga,3507
+"gc ""fix nu""",3508
+gp,3509
+ll,3510
+pwd,3511
+ll,3512
+pwd,3513
+ping github.com,3514
+yay -Sy,3515
+yay -Syu,3516
+ls,3517
+z nv,3518
+z /.locals,3519
+z /.local,3520
+z .local,3521
+ls,3522
+cd bin/,3523
+ls,3524
+z,3525
+ls,3526
+v,3527
+ll,3528
+pwd,3529
+ls,3530
+pwd,3531
+dart --version,3532
+node -v,3533
+dart --version,3534
+ls,3535
+pwd,3536
+ll,3537
+pwd,3538
+ls,3539
+pwd,3540
+ll,3541
+yay -Sy,3542
+ls,3543
+yay -Syu,3544
+z nv,3545
+v,3546
+ls,3547
+pwd,3548
+ll,3549
+pwd,3550
+ll,3551
+ls,3552
+pw,3553
+ll,3554
+z nv,3555
+ls,3556
+z ,3557
+y,3558
+ls,3559
+pwd,3560
+ll,3561
+ls,3562
+pw,3563
+ll,3564
+pwd,3565
+ll,3566
+history | uniq-by command,3567
+ls,3568
+pp,3569
+l,3570
+java -version,3571
+ls,3572
+z,3573
+z .sdk/,3574
+ls,3575
+curl -O https://download.oracle.com/java/25/latest/jdk-25_linux-x64_bin.tar.gz,3576
+ls,3577
+tar jdk-25_linux-x64_bin.tar.gz,3578
+tar -xvf jdk-25_linux-x64_bin.tar.gz,3579
+ls,3580
+mv jdk-25.0.2/ ./java,3581
+y,3582
+..,3583
+rm jdk-25_linux-x64_bin.tar.gz,3584
+ls,3585
+dysk,3586
+rm -rf ~/.cache/yay/*,3587
+history | grep rm,3588
+sudo pacman -Scc,3589
+ls,3590
+zi,3591
+v,3592
+java -version,3593
+pwd,3594
+ll,3595
+ls,3596
+pwd,3597
+ll,3598
+z nv,3599
+v,3600
+fresh,3601
+ls,3602
+z,3603
+z .cli/,3604
+ls,3605
+z bin/,3606
+ls,3607
+curl -O https://github.com/sinelaw/fresh/releases/download/v0.1.97/fresh-editor-x86_64-unknown-linux-gnu.tar.xz,3608
+ls,3609
+tar -xvf fresh-editor-x86_64-unknown-linux-gnu.tar.xz,3610
+ls,3611
+tar -xJf fresh-editor-x86_64-unknown-linux-gnu.tar.xz,3612
+rm fresh-editor-x86_64-unknown-linux-gnu.tar.xz,3613
+curl -O https://github.com/sinelaw/fresh/releases/download/v0.1.97/fresh-editor-x86_64-unknown-linux-musl.tar.gz,3614
+ls,3615
+tar -xJf fresh-editor-x86_64-unknown-linux-musl.tar.gz,3616
+ls,3617
+tar -x fresh-editor-x86_64-unknown-linux-musl.tar.gz,3618
+tar -xf fresh-editor-x86_64-unknown-linux-musl.tar.gz,3619
+rm fresh-editor-x86_64-unknown-linux-musl.tar.gz,3620
+ls,3621
+pomo,3622
+ls,3623
+pwd,3624
+ll,3625
+nano,3626
+pwd,3627
+ll,3628
+ls,3629
+z .cli/,3630
+ls,3631
+z bin/,3632
+ls,3633
+dysk,3634
+ls,3635
+curl -O https://github.com/sinelaw/fresh/releases/download/v0.1.97/fresh-editor-x86_64-unknown-linux-musl.tar.gz,3636
+ls,3637
+tar -xvf fresh-editor-x86_64-unknown-linux-musl.tar.gz,3638
+tar -xzvf fresh-editor-x86_64-unknown-linux-musl.tar.gz,3639
+ls,3640
+rm fresh-editor-x86_64-unknown-linux-musl.tar.gz,3641
+wget  https://github.com/sinelaw/fresh/releases/download/v0.1.97/fresh-editor-x86_64-unknown-linux-musl.tar.gz,3642
+ls,3643
+tar -xzvf fresh-editor-x86_64-unknown-linux-musl.tar.gz,3644
+ls,3645
+mv fresh-editor-x86_64-unknown-linux-musl/ ./fresh,3646
+y,3647
+z nushell,3648
+fresh,3649
+v,3650
+z ,3651
+zi,3652
+y,3653
+z oxwm,3654
+v,3655
+zi,3656
+ls,3657
+v,3658
+fresh,3659
+ls,3660
+pwd,3661
+ll,3662
+yay -Sy,3663
+yay -Syu,3664
+ls,3665
+p,3666
+ll,3667
+pwd,3668
+ll,3669
+z nv,3670
+v,3671
+ping github.com,3672
+ls,3673
+time,3674
+ls,3675
+zi,3676
+ls,3677
+ping github.com,3678
+z nv,3679
+v,3680
+z config,3681
+gs,3682
+ls,3683

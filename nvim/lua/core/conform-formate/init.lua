@@ -10,6 +10,7 @@ M.setup = function()
 			dart = { "dart_format" },
 			cpp = { "clang_format" },
 			c = { "clang_format" },
+			java = { "google-java-format" },
 		},
 		formatters = {
 			clang_format = {

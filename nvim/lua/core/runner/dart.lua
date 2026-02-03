@@ -27,14 +27,19 @@ local function execute_dart_chunk(chunk)
 	-- Clear previous content
 	vim.api.nvim_buf_set_lines(buf, 0, -1, false, { "Running Dart..." })
 
-	-- 3. Write chunk to a temporary file
+	-- 3. Smart Wrap: Check if we need to add a main() function
+	local final_code = chunk
+	if not chunk:find("void main%s*(%s*)") then
+		final_code = "void main() {\n" .. chunk .. "\n}"
+	end
+
+	-- Write to temp file
 	local tmp_file = vim.fn.tempname() .. ".dart"
 	local f = io.open(tmp_file, "w")
 	if f then
-		f:write(chunk)
+		f:write(final_code)
 		f:close()
 	end
-
 	-- 4. Execute using vim.system
 	local start_time = vim.loop.hrtime()
 

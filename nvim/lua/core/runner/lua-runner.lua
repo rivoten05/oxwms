@@ -1,8 +1,11 @@
+local M = {}
+
 local function execute_lua_chunk(chunk)
 	local buf_name = "LuaOutput"
 	local buf = vim.fn.bufnr(buf_name)
 
-	if buf == -1 then
+	-- 1. Buffer & Window Logic
+	if buf == -1 or not vim.api.nvim_buf_is_valid(buf) then
 		buf = vim.api.nvim_create_buf(false, true)
 		vim.api.nvim_buf_set_name(buf, buf_name)
 		vim.api.nvim_set_option_value("filetype", "lua", { buf = buf })
@@ -22,20 +25,23 @@ local function execute_lua_chunk(chunk)
 		title_pos = "center",
 	})
 
+	-- 2. Output Handling
 	local output = {}
-	local old_print = print
-	print = function(...)
-		local args = {}
-		for i = 1, select("#", ...) do
-			local v = select(i, ...)
-			table.insert(args, type(v) == "table" and vim.inspect(v) or tostring(v))
+	local old_print = _G.print -- Ensure we capture the global print
+
+	_G.print = function(...)
+		local args = { ... }
+		local str_args = {}
+		for _, v in ipairs(args) do
+			table.insert(str_args, type(v) == "table" and vim.inspect(v) or tostring(v))
 		end
-		local lines = vim.split(table.concat(args, "\t"), "\n", { plain = true })
-		for _, l in ipairs(lines) do
+		local line = table.concat(str_args, "\t")
+		for _, l in ipairs(vim.split(line, "\n")) do
 			table.insert(output, l)
 		end
 	end
 
+	-- 3. Execution
 	local func, err = load(chunk)
 	local ok, result
 	local start_time = vim.loop.hrtime()
@@ -47,8 +53,9 @@ local function execute_lua_chunk(chunk)
 	end
 
 	local duration = (vim.loop.hrtime() - start_time) / 1e6
-	print = old_print
+	_G.print = old_print -- Restore print immediately
 
+	-- 4. Finalizing Output
 	if ok then
 		if result ~= nil then
 			table.insert(output, "Result: " .. vim.inspect(result))
@@ -56,26 +63,26 @@ local function execute_lua_chunk(chunk)
 			table.insert(output, "✔ Executed successfully")
 		end
 	else
-		table.insert(output, "❌ Error: " .. result)
+		table.insert(output, "❌ Error: " .. tostring(result))
 	end
 
 	table.insert(output, string.format("⏱ Time: %.2fms", duration))
 	vim.api.nvim_buf_set_lines(buf, 0, -1, false, output)
 end
 
--- Normal mode: Run whole buffer
-local function eval_buffer()
+function M.eval_buffer()
 	local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
 	execute_lua_chunk(table.concat(lines, "\n"))
 end
 
--- Visual mode: Run selection
-local function eval_region()
-	-- This ensures we get the latest selection marks
+function M.eval_region()
+	-- Clear register v to ensure clean selection
+	vim.fn.setreg("v", "")
 	vim.cmd('noau normal! "vy"')
 	local text = vim.fn.getreg("v")
-	execute_lua_chunk(text)
+	if text ~= "" then
+		execute_lua_chunk(text)
+	end
 end
 
-vim.keymap.set("n", "<leader>rr", eval_buffer, { desc = "Run Lua Buffer" })
-vim.keymap.set("v", "<leader>rr", eval_region, { desc = "Run Lua Selection" })
+return M

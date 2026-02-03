@@ -200,3 +200,11 @@ vim.api.nvim_create_user_command("ToggleContrast", function()
 end, {})
 
 vim.api.nvim_set_hl(0, "BlinkCmpGhostText", { link = "Comment" })
+
+-- Auto-compile on save for Java files to trigger DevTools
+vim.api.nvim_create_autocmd("BufWritePost", {
+	pattern = "*.java",
+	callback = function()
+		vim.fn.jobstart("mvn compile")
+	end,
+})
